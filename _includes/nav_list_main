@@ -35,7 +35,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Others" %}
-                        <li><a href="/categories/algorithm" class="">기타 등등({{category[1].size}})</a></li>
+                        <li><a href="/categories/others" class="">기타 등등({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
