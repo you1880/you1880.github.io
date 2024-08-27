@@ -442,7 +442,7 @@
 
   a {
     color: inherit;
-    color: mix(#272727, $primary-color, 80%);
+    color: mix(#fff, $primary-color, 80%);
 
     &:hover {
       text-decoration: underline;
@@ -497,7 +497,7 @@
   padding: 0.25rem 0;
   font-family: $sans-serif-narrow;
   font-size: $type-size-6;
-  color: mix(#272727, $primary-color, 35%);
+  color: mix(#fff, $primary-color, 35%);
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
 }
