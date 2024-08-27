@@ -12,14 +12,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Cpp" %}
-                        <li><a href="/categories/cpp" class="">C++ ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cpp" class="">- C++ ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "CS" %}
-                        <li><a href="/categories/stl" class="">C#({{category[1].size}})</a></li>
+                        <li><a href="/categories/stl" class="">- C#({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -27,7 +27,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithm" %}
-                        <li><a href="/categories/algorithm" class="">백준(with C++) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/algorithm" class="">- 백준(with C++) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -35,7 +35,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Others" %}
-                        <li><a href="/categories/others" class="">기타 등등({{category[1].size}})</a></li>
+                        <li><a href="/categories/others" class="">- etcs({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
